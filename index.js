@@ -6,7 +6,7 @@ let apikey = '6cfe3ffa84a84af3b8f63697a893b038';
 let News1 = document.getElementById('News1');
 // create a get request
 const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${apikey}`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=6cfe3ffa84a84af3b8f63697a893b038`, true);
 
 xhr.onload = function () {
     if (this.status === 200) {
