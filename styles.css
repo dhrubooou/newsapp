@@ -1,0 +1,16 @@
+body {  font-family: Arial, sans-serif;
+}
+h1 {  text-align: center;
+}
+ul {  list-style-type: none;
+  padding: 0;}
+li {
+  margin-bottom: 10px;}
+.news-item {
+  display: flex;  align-items: center;
+}
+.news-item img {  width: 100px;
+  height: 100px;  margin-right: 10px;
+}
+.news-item h2 {  margin: 0;
+}
